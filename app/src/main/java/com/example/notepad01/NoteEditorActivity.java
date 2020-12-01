@@ -44,7 +44,7 @@ public class NoteEditorActivity extends AppCompatActivity {
             {
 
             }
-            //i add comment here
+            
             @Override
             public void onTextChanged(CharSequence s, int start, int before, int count)
             {
