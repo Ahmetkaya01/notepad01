@@ -87,7 +87,7 @@ public class MainActivity extends AppCompatActivity {
             {
                 new AlertDialog.Builder(MainActivity.this)                   // we can't use getApplicationContext() here as we want the activity to be the context, not the application
                         .setIcon(android.R.drawable.ic_dialog_alert)
-                        .setTitle("Delete?")
+                        .setTitle("Delete?") //i add comment here
                         .setMessage("Are you sure you want to delete this note?")
                         .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
                             @Override
